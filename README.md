@@ -4,7 +4,7 @@ Watch for file system changes on MacOS from your Swift app!
 
 > Requires MacOS v13+.
 
-Includes the package in your app:
+Include the package in your app:
 
 ```swift
 // swift-tools-version: 6.0
@@ -19,7 +19,7 @@ let package = Package(
   ],
   targets: [
     .executableTarget(
-      name: "Scratch", dependencies: [
+      name: "YourApp", dependencies: [
         .product(name: "ChChChanges", package: "ch-ch-changes")
       ]
     ),

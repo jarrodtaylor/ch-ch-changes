@@ -44,7 +44,7 @@ extension URL {
 		self = URL(fileURLWithFileSystemRepresentation: bufferPath, isDirectory: false, relativeTo: nil)
 	}
 
- public func watchForChChChanges(callback: @escaping ([URL]) -> Void) {
+  public func watchForChChChanges(callback: @escaping ([URL]) -> Void) {
     ChChChanges(self, callback: callback)
   }
 }
