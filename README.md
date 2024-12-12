@@ -22,7 +22,7 @@ let package = Package(
       name: "YourApp", dependencies: [
         .product(name: "ChChChanges", package: "ch-ch-changes")
       ]
-    ),
+    )
   ]
 )
 ```
